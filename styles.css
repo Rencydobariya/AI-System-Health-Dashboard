@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(135deg, #e0f2fe, #ffffff);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Title */
+.main-title {
+    text-align: center;
+    font-size: 45px;
+    color: #1e3a8a;
+}
+
+/* Big heading */
+.big-heading {
+    text-align: center;
+    font-size: 35px;
+    color: #2563eb;
+}
+
+.heading {
+    text-align: left;
+    font-size: 35px;
+    color: #2563eb;
+}
+/* Section */
+.section-title {
+    font-size: 28px;
+    color: #0f172a;
+}
+
+/* CPU RAM DISK BOX */
+.cpu-box {
+    background: #dbeafe;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.ram-box {
+    background: #dcfce7;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.disk-box {
+    background: #fef9c3;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* STATUS */
+.risk-box {
+    background: #fecaca;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: red;
+}
+
+.trust-box {
+    background: #bbf7d0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.suggest-box {
+    background: #fde68a;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Chat */
+.chat-title {
+    font-size: 32px;
+    text-align: center;
+    color: #1e40af;
+}
+
+.user-msg {
+    background: #dbeafe;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.bot-msg {
+    background: #dcfce7;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
