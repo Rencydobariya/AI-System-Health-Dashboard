@@ -1,8 +1,18 @@
+html, body, [class*="css"]  {
+    color: #000000 !important;
+}
 body {
     background: linear-gradient(135deg, #e0f2fe, #ffffff);
     font-family: 'Poppins', sans-serif;
 }
-
+.cpu-box, .ram-box, .disk-box {
+    color: #000 !important;
+    font-weight: bold;
+}
+.cpu-box, .ram-box, .disk-box {
+    color: #000 !important;
+    font-weight: bold;
+}
 /* Title */
 .main-title {
     text-align: center;
@@ -64,6 +74,8 @@ body {
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+    color: #000 !important;
+    font-weight: bold;
 }
 
 .suggest-box {
@@ -71,6 +83,8 @@ body {
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+     color: #000 !important;
+    font-weight: bold;
 }
 
 /* Chat */
@@ -82,17 +96,22 @@ body {
 
 .user-msg {
     background: #dbeafe;
+    color: #000 !important;
     padding: 10px;
     border-radius: 10px;
     margin: 5px;
+    font-weight: bold;
 }
 
 .bot-msg {
     background: #dcfce7;
+    color: #000 !important;
     padding: 10px;
     border-radius: 10px;
     margin: 5px;
+    font-weight: bold;
 }
+
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0.4; }
