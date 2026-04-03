@@ -1,7 +1,3 @@
-import sys
-import os
-
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
@@ -30,7 +26,7 @@ risk, trust = calculate_risk(data)
 suggestion = get_suggestion(data)
 
 # 🔥 BIG FULL WIDTH PIE CHART
-st.markdown("<h2 class='heading'>🔥 Live System Usage</h2>", unsafe_allow_html=True)
+st.markdown("<h2 class='heading'><br>🔥 Live System Usage</h2>", unsafe_allow_html=True)
 
 fig = go.Figure(data=[go.Pie(
     labels=["🧠 CPU", "💾 RAM", "💽 DISK"],
@@ -57,7 +53,7 @@ with col3:
     st.markdown(f"<div class='disk-box'>💽 DISK<br><h1>{data['disk']}%</h1></div>", unsafe_allow_html=True)
 
 # 📊 BAR GRAPH (EXTRA VISUAL 🔥)
-st.markdown("<h2 class='section-title'>📊 System Usage Graph</h2>", unsafe_allow_html=True)
+st.markdown("<h2 class='section-title'><br><br>📊 System Usage Graph</h2>", unsafe_allow_html=True)
 
 bar = px.bar(
     x=["CPU", "RAM", "DISK"],
